@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+#bor
+{
+    border-bottom: yellow solid 5px;
+}
+body{
+    background-color:#040101;   
+}
+.main{
+    /* position: relative; */
+    height:100vh;
+    width:100vw;
+    background-color:#040101;   
+}
+.navbar
+{
+    height: 10vh;
+    width:60vw;
+    margin-left: 30vh; 
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    width: 6vw;
+    height:5vh;
+    color: white;
+    /* margin-top: 2vh; */
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(190, 35, 35, 0.71);
+}
+.container1
+{
+    height: 50vh;
+    width:90vw;
+    margin-left: 10vh;
+    /* background-color: aqua; */
+    margin-top: 10vh;
+    display: flex;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width:50vw;
+    color: white;
+    /* background-color: beige; */
+}
+.right
+{
+
+    height: 100%;
+    width:50%vw;
+    /* background-color: rgb(208, 208, 169); */
+}
+.left h2{
+    font-size: xxx-large;
+    font-size: clamp(25px,4vw,50px);
+    margin-left: -10%;
+}
+.left h1{
+    color: red;
+    margin-left: -20%;
+    font-size: clamp(25px,4vw,35px);
+}
+.left h3{
+    /* color: red; */
+    margin-left: -5%;
+    font-weight: 300;
+    font-size: clamp(20px,4vw,15px); 
+}
+img{
+    height: 100%;
+    width:100%;
+}
+.cartypes
+{
+    height: 10vh;
+    padding:2%;
+    font-size: clamp(10px,4vw,40px);
+    /* background-color: aqua; */
+    color:red;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+.cartypes h2{
+    color: white;
+    font-size: xxx-large;
+    /* font-weight:800;  */
+}
+.container2 
+{
+    height: 30%;
+    /* width:100%; */
+    display: flex;
+    /* background-color: aqua; */
+} 
+.container2 .left
+{
+width:50%;
+/* background-color: blue; */
+}
+.container2 .right
+{
+    width:50%;
+    /* background-color: rgb(203, 203, 226); */
+    
+}
+p
+{
+    margin-top: 10%;
+    color: white;
+}
+.container3 
+{
+    height: 30%;
+    /* width:100%; */
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+} 
+.container3 .lef
+{
+    margin-top: 5%;
+    height:30%;
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(158, 158, 185);
+    
+}
+.container3 .right
+{
+    margin-top: 5%;
+    height:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+    color: white;
+    background-color: rgb(158, 158, 185);
+    
+}
+.cartypes h1{
+    font-size: clamp(40px);
+}
+.cartypes h2{
+    font-size: clamp(25px,6vw,45px);
+}
+.container2 h1,h2
+{
+    font-size: clamp(25px,4vw,40px);
+}
+.container3 .lef h1{
+    font-size: clamp(25px,2vw,28px);
+}
+.container3 .right h1{
+    font-size: clamp(25px,2vw,28px);
+}
+.container1 h1
+{
+    margin-left: -8%;
+}
